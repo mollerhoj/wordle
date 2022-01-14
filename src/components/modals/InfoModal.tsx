@@ -51,7 +51,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    How to play
+                    Regler
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
@@ -60,8 +60,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <CELL VALUE="P" STATUS="CORRECT" />
-                      <CELL VALUE="Å" />
+                      <Cell value="P" status="correct" />
+                      <Cell value="Å" />
                       <Cell value="S" />
                       <Cell value="K" />
                       <Cell value="E" />
