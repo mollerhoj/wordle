@@ -28,6 +28,9 @@ export type CharValue =
   | "V"
   | "B"
   | "N"
+  | "Æ"
+  | "Ø"
+  | "Å"
   | "M";
 
 export const getStatuses = (

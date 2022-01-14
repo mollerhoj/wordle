@@ -54,19 +54,25 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      This is an open source clone of the game Wordle -{" "}
+                      Dette er en open source klon a spillet Wordle -{" "}
+                      <a
+                        href="https://github.com/mollerhoj/ordle"
+                        className="underline font-bold"
+                      >
+                        se koden til spillet her
+                      </a>{" "}
                       <a
                         href="https://github.com/hannahcode/wordle"
                         className="underline font-bold"
                       >
-                        check out the code here
+                        se den klonede open source version her
                       </a>{" "}
                       and{" "}
                       <a
                         href="https://www.powerlanguage.co.uk/wordle/"
                         className="underline font-bold"
                       >
-                        play the original here
+                        spil det originale spil her
                       </a>
                     </p>
                   </div>

@@ -55,20 +55,19 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Guess the WORDLE in 6 tries. After each guess, the color
-                      of the tiles will change to show how close your guess was
-                      to the word.
+                      Gæt ORDLEN på 6 forsøg. Efter hvert gæt bliver farven
+                      på brikkerne ændret til at vise dig hvor godt dit gæt var.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="W" status="correct" />
+                      <CELL VALUE="P" STATUS="CORRECT" />
+                      <CELL VALUE="Å" />
+                      <Cell value="S" />
+                      <Cell value="K" />
                       <Cell value="E" />
-                      <Cell value="A" />
-                      <Cell value="R" />
-                      <Cell value="Y" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter W is in the word and in the correct spot.
+                      Bogstavet P er i ordet, og er på det rigtige sted.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
@@ -79,18 +78,18 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="T" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter L is in the word but in the wrong spot.
+                      Bogstavet L er i ordet, men er ikke på det rigtige sted.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="V" />
+                      <Cell value="T" />
                       <Cell value="A" />
-                      <Cell value="G" />
-                      <Cell value="U" status="absent" />
+                      <Cell value="S" />
+                      <Cell value="K" status="absent" />
                       <Cell value="E" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter U is not in the word in any spot.
+                      Bogstavet K er ikke noget sted i ordet.
                     </p>
                   </div>
                 </div>
