@@ -56,7 +56,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                     <p className="text-sm text-gray-500">
                       Dette er en open source klon a spillet Wordle -{" "}
                       <a
-                        href="https://github.com/mollerhoj/ordle"
+                        href="https://github.com/mollerhoj/wordle"
                         className="underline font-bold"
                       >
                         se koden til spillet her
